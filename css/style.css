@@ -1,0 +1,96 @@
+/*
+Project Name: Mediterania
+Author: I Putu Dana Putra
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+.alignleft {
+     margin: 0 15px 15px 0;
+}
+
+.alignright {
+     margin: 0 0 15px 15px;
+}
+
+.bold {
+     font-weight: bold;
+}
+
+.small {
+     font-size: 15px;
+     font-style: italic;
+}
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+body{
+     background: white;
+}
+
+#container {
+     width: 1000px;
+     margin: 0 auto;
+}
+
+#header {
+     background: white;
+     padding: 10px;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 50px;
+}
+
+#main {
+     background: rgb(196, 255, 196);
+     padding: 50px;
+     width: 700px;
+     float: left;
+     font-family:'Times New Roman', Times, serif;
+     font-style: italic;
+     border : 1px solid black
+}
+
+#sidebar {
+     background: rgb(255, 164, 228);
+     padding: 30px;
+     width: 280px;
+     float: right;
+     font-family:'Times New Roman', Times, serif;
+     font-style: italic;
+     border : 1px solid black;
+}
+
+#sidebar2 {
+     background: rgb(253, 255, 164);
+     padding: 30px;
+     width: 280px;
+     height: 480px;
+     float: right;
+     font-family:'Times New Roman', Times, serif;
+     font-style: italic;
+     border : 1px solid black;
+     font-weight: bold;
+}
+
+#footer {
+     background: white;
+     padding: 30px;
+     font-family:'Times New Roman', Times, serif;
+     font-style: italic;
+}
